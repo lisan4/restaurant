@@ -1,0 +1,147 @@
+header {
+    background:black;
+}
+
+.header__wrapper {
+    background-image: url('/img/bg.png.png');
+    background-repeat: no-repeat;
+    width: 1440px;
+    margin: 0 auto;
+    height: 800px;
+}
+.nav {
+    padding-right: 165px;
+    padding-left: 165px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.nav-list1 {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    height: 64px;
+    position: relative;
+    margin-right: 38px;
+    border-right:2px solid grey;
+    
+    padding-right: 55px;
+
+    &::before {
+        position: absolute;
+        content: '';
+        top: 26px;
+        left: 257px;
+        background-repeat: no-repeat;
+        width: 13px;
+        height: 13px;
+        background-image: url(/img/cart.svg);
+    }
+}
+
+.nav-list2 {
+    height: 64px;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 266px;
+
+}
+
+.nav-link {
+    color: $white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-number {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-call {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 3px;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.image-phone {
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.button-nav {
+    margin-top: 3px;
+    margin-left: 108px;
+}
+
+.welcome {
+    width: 556px;
+    height: 250px;
+    margin-top: 203px;
+    margin-left: 175px;
+}
+
+.welcome-list {
+    text-align: center;
+}
+
+.welcome-item {
+    margin-bottom: -6px;
+}
+
+.welcome-paragraph {
+    font-size: 50px;
+    color: $orange-text;
+}
+
+.welcome-paragraph2 {
+    font-size: 80px;
+    color: $orange-text;
+}
+
+.welcome-rest {
+    font-size: 18px;
+}
+
+.button-menu {
+    width: 137px;
+    height: 37px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.welcome-rest {
+    margin-top: 12px;
+    font-size:30px;
+    position: relative;
+    &::after {
+        position: absolute;
+        content: '';
+        width: 61px;
+        height: 2px;
+        top: 19px;
+        left: 176px;
+        background-color: $white;
+    }
+    &::before {
+        position: absolute;
+        content: '';
+        width: 61px;
+        height: 2px;
+        top: 19px;
+        left: 315px;
+        background-color: $white;
+    }
+}
+
+
+
+.button-menu {
+    margin-top: 25px;
+}

@@ -1,0 +1,138 @@
+.dishes-wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    padding-left: 165px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+.dishes-paragraph {
+    color: black;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.dishes-item {
+    display: flex;
+    margin-bottom: 29px;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.dishes-h2 {
+    font-size: 54px;
+    line-height: 62px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 1440px;
+    text-align: center;
+    margin-top: 132px;
+    margin-bottom: 135px;
+}
+
+.dish-span {
+    color: $orange-text;
+}
+
+.menu-h2 {
+    color: white;
+    font-size: 54px;
+    line-height: 62px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.menu-wrapper2 {
+    background-image: url(/img/back-menu.png);
+    width: 1440px;
+    margin: 0 auto;
+    height: 995px;
+}
+
+.item-menu2 {
+    width: 350px;
+    height: 510px;
+    background-color: white;
+
+}
+
+.list-menu2 {
+     position: relative;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+}
+
+.dishes-burger2 {
+    padding-top: 80px;
+    padding-left: 62px;
+    padding-right: 63px;
+    margin-bottom: 16px;
+}
+
+.maxi {
+    color: black;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.meet {
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.button-burger {
+    display: block;
+    margin: 0 auto;
+    margin-top: 17px;
+    background-color: $orange-text;
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.recommended {
+    width: 124px;
+    height: 36px;
+    background-color: $orange-text;
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    box-sizing: border-box;
+    padding-top: 9px;
+    color: black;
+    position: absolute;
+}
+
+.pricee {
+    position: absolute;
+    background-image: url(/img/Ellipse.png);
+    background-repeat: no-repeat;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 38px;
+    top: 212px;
+    left: 358px;
+}
+
+.price2 {
+    left: 745px;
+    top: 212px;
+}
+
+.price3 {
+    left: 1124px;
+    top: 212px;
+}
